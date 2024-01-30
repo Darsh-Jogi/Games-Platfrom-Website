@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="maincss.css">
+</head>
+
+<body>
+  <nav class="nav-menu">
+    <div class="logo-img">
+      <img src="mylogo2.jpg" alt="" class="nav-logo-img">
+    </div>
+    <div class="navmenu-responsive">
+      <ul class="nav-links-responsive">
+        <div class="close-sidebar" onclick="hidesidebar()">
+        <img src="icons8-close-window-100 (2).png" alt="" width="50" height="50">
+        </div>
+        <li><a href="#">Home</a></li>  
+        <li class="center"><a href="#">About us</a></li>
+        <li class="upward"><a href="#">All Games</a></li>
+        <li class="forward"><a href="#">Feedback</a></li>
+      </ul>
+      <div class="socialmedia-icons-responsive">
+        <img src="icons8-instagram.svg" alt="" class="sicon-1-responsive" width="65">
+        <img src="icons8-facebook.svg" alt="" class="sicon-1-responsive" width="65">
+        <img src="icons8-twitterx-100.png" alt="" class="sicon-1-responsive" width="65">
+        <img src="icons8-gmail-100.png" alt="" class="sicon-1-responsive" width="65">
+      </div>
+
+      
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>  
+      <li class="center"><a href="#">About us</a></li>
+      <li class="upward"><a href="#">All Games</a></li>
+      <li class="forward"><a href="#">Feedback</a></li>
+    </ul>
+    <div class="socialmedia-icons">
+      <img src="icons8-instagram.svg" alt="" class="sicon-1" width="65">
+      <img src="icons8-facebook.svg" alt="" class="sicon-1" width="65">
+      <img src="icons8-twitterx-100.png" alt="" class="sicon-1" width="65">
+      <img src="icons8-gmail-100.png" alt="" class="sicon-1" width="65">
+    </div>
+    <div class="hamburger-menu" onclick="showsidebar()">
+      <img src="icons8-hamburger-menu-100 (2).png" alt="">
+    </div>
+
+
+  </nav>
+  <div class="home-section">
+    <div class="home-border">
+      <div class="home-content">
+        <h2 class="home-heading">Welcome to Gaming Zone, <br> where endless fun awaits at your fingertips!</h2>
+        <p class="home-info">Dive into a world of excitement and entertainment with Gaming Zone.<br>Explore a variety of
+          captivating games here.</p>
+        <buttton class="home-btn">Explore Games</buttton>
+      </div>
+    </div>
+  </div>
+  <div class="allgames-section">
+
+
+    <div class="allgames-border">
+
+    <div class="games-heading-section">
+     <h2 class="game-info-heading">Discover Our Game Collection : Play, Thrive, Repeat!</h2>
+     <p class="game-para-decs">Dive into Gaming Zone's Game Section and explore a world of entertainment. From classics to new favorites, there's a game for every player. Start playing now!</p>
+    </div>
+
+
+    <div class="allgames-main-grid">
+
+      <!-- 1st game is here -->
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 1/Memory-Game.jpg" alt=""
+            class="gameimage-1" width="300">
+          <div class="game-name-rating">
+            <h3 class="game-name">Memory Game</h3>
+            <h3 class="game-ratinig">⭐ 4.6</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame1()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 2nd game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 2/speed-typing-test-game.webp" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name">Speed Test Game</h3>
+            <h3 class="game-ratinig">⭐ 4.8</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame2()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 3rd game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 3/20210915-071147306RACF.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name"> Hangman Game</h3>
+            <h3 class="game-ratinig">⭐ 4.5</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame3()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 4th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 4/sl_120622_54360_25.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name"> Quiz Game</h3>
+            <h3 class="game-ratinig">⭐ 4.8</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame4()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 5th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 5/6972220_40158.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name"> Word Scramble </h3>
+            <h3 class="game-ratinig">⭐ 4.7</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame5()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 6th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 6/game-944386_1280.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name">Tic Tac Toe</h3>
+            <h3 class="game-ratinig">⭐ 4.9</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame6()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 7th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 7/29838192_7558767.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name">Number Guessing</h3>
+            <h3 class="game-ratinig">⭐ 4.5</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame7()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 8th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 8/13405433_5206374.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name">Word Guessing</h3>
+            <h3 class="game-ratinig">⭐ 4.6</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame8()"><a href="" class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 9th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img
+            src="/Game - 9/24563119_2202_w023_n001_1896b_p1_1896.jpg"
+            alt="" class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name">Rock Paper Scissors</h3>
+            <h3 class="game-ratinig">⭐ 4.9</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame9()"><a
+              href="/Projects For Resumes & CVs/Games Platform Website/Game - 9/Rock Paper Scissors/Rock Paper Scissors/index.html"
+              class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      <!-- 10th game is here -->
+
+      <div class="hover-card-effect">
+        <div class="game-card">
+          <img src="/Game - 10/4970219_31273.jpg" alt=""
+            class="gameimage-1" width="300" height="200">
+          <div class="game-name-rating">
+            <h3 class="game-name">Snake Game</h3>
+            <h3 class="game-ratinig">⭐ 4.9</h3>
+          </div>
+          <button class="game-play-button" onclick="redirectToGame10()"><a
+              href="/Projects For Resumes & CVs/Games Platform Website/Game - 10/Snake Game in JavaScript/Snake Game/index.html"
+              class="game-link">Play</a></button>
+        </div>
+      </div>
+
+      
+    </div>  <!-- grid ends here -->
+  </div> <!-- allgames-border ends here -->
+  </div>  <!-- Allgames-section ends here -->
+
+  <div class="aboutus-section">
+
+   <div class="aboutus-border">
+
+    <div class="aboutus-element-heading">
+    <h1 class="aboutus-main-heading">About Us</h1> 
+    </div>
+
+    <div class="aboutus-info">
+      <div class="aboutus-element-info">
+      <h2 class="aboutus-heading">Unveiling Gaming Zone : Our Story, Your Adventure.</h2>
+      <p class="aboutus-para">At Gaming Zone, we're passionate about crafting unforgettable gaming experiences. Our journey began with a simple dream: to create a space where gamers of all backgrounds could come together to play, connect, and thrive. Guided by innovation and fueled by creativity, we're dedicated to delivering top-notch entertainment that captivates and inspires.</p>
+      </div>
+      <img src="Aboutus image.jpg" alt="" class="aboutus-main-image">
+    </div>
+
+    <div class="aboutus-info-1">
+      <div class="aboutus-element-info-1">
+      <h2 class="aboutus-heading-1">Our Mission : Empowering Gamers, Inspiring Fun.</h2>
+      <p class="aboutus-para aboutus-para-1">At Gaming Zone, our mission is simple yet profound: to empower gamers worldwide and inspire joy through gaming. We believe in the transformative power of play, fostering connections, sparking creativity, and igniting imaginations. With dedication and passion, we strive to create a community where every player feels valued, every achievement celebrated, and every moment cherished.</p>
+      </div>
+      <img src="about-us2.jpg" alt="" class="aboutus-main-image">
+    </div>
+
+
+      
+
+  </div>
+
+  </div>
+
+
+<div class="feedback-section">
+  <div class="feedback-border">
+    <h1 class="feedback-title-heading">
+      Feedback
+    </h1>
+    <div class="feedbackinfo-feedbackpic">
+    <div class="feedback-info">
+      <h2 class="feedback-heading">We Value Your Voice: Share Your Feedback with Us</h2>
+      <p class="feedback-para">At Gaming Zone, your opinion matters. We're committed to creating the best possible gaming experience for our community, and your feedback helps us achieve that goal. Whether you have suggestions for improvement, stories to share, or simply want to let us know how we're doing, we'd love to hear from you. Together, let's shape the future of gaming!</p>
+    </div>
+<!-- new feedback from -->
+<div id="panel" class="panel-container">
+  <strong>How satisfied are you with our <br /> Games Platform performance?</strong>
+  <div class="ratings-container">
+    <div class="rating">
+      <img src="unhappy.jpg" alt="" class="emoji-1">
+      <small>Unhappy</small>
+    </div>
+
+    <div class="rating">
+      <img src="Neutral.jpg" alt="" class="emoji-1">
+      <small>Neutral</small>
+    </div>
+
+    <div class="rating active">
+      <img src="happy.png" alt=""/>
+      <small>Satisfied</small>
+    </div>
+  </div>
+  <button class="btn" id="send">Send Review</button>
+</div>
+<!-- new feedback from -->
+</div> <!-- feedbackinfo-feedbackpic ends here -->
+</div> <!-- feedback-border ends here -->
+</div> <!-- feedback-section ends here -->
+  <script src="mainscrpt.js"></script>
+</body>
+
+</html>
