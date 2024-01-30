@@ -1,7 +1,7 @@
 console.log("javascript start from here")
 
 function redirectToGame1() {
-    window.open('Game - 1/Memory Card Game/Memory Cards Game [Demo 1]/index.html', '_blank'); // Adjust the path accordingly
+    window.open('Game - 1/Memory Card Game/Memory Cards Game [Demo 1]/memorycardgame.html', '_blank'); // Adjust the path accordingly
   }
 function redirectToGame2() {
     window.open('Game - 2/Typing Speed Test Game in JavaScript/index.html', '_blank'); // Adjust the path accordingly
