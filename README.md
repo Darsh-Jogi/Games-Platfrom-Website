@@ -2,6 +2,19 @@
 # Games Platform Website
 Games Platform Website is a fully responsive website, Responsive for all devices, build using HTML, CSS, and JavaScript. Click on the link for the [Live Demo](https://darsh-jogi.github.io/Games-Platfrom-Website/)
 
+# Demo & Screenshots
+## Screenshot 1
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Games-Platfrom-Website/main/Screenshot%201%20-games%20website.png">
+
+## Screenshot 2
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Games-Platfrom-Website/main/Screenshot%202%20-games%20website.png">
+
+## Screenshot 3
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Games-Platfrom-Website/main/Screenshot%204%20-games%20website.png">
+
+## Screenshot 4
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Games-Platfrom-Website/main/Screenshot%203%20-games%20website.png">
+
 # Crafted Nostalgia: Relive Classic Gameplay in Your Browser.
 Say goodbye to downloads and installation hassles! This project showcases the power of pure HTML, CSS, and Javascript to deliver 10 classic games directly in your browser, ready for instant fun.
 
